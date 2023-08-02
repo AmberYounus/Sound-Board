@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+body {
+  background: rgb(96 80 220);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.soundBoard {
+  background-color: rgb(54, 42, 104);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.soundBoard:hover {
+  opacity: 0.5;
+}
+.soundBoard:focus {
+  outline: none;
+}
